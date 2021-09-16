@@ -19,4 +19,6 @@ target_link_libraries(StarterProject SDL_image)
 target_link_libraries(StarterProject SDL_ttf)
 target_link_libraries(StarterProject pthread)
 
+file(COPY ${CMAKE_CURRENT_SOURCE_DIR}/assets DESTINATION ${CMAKE_CURRENT_BINARY_DIR})
+file(COPY ${CMAKE_CURRENT_SOURCE_DIR}/data DESTINATION ${CMAKE_CURRENT_BINARY_DIR})
 
