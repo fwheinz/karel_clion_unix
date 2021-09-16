@@ -14,11 +14,11 @@
 
 #include "karel.h"
 
-void setup() {
+void setup (void) {
     loadWorld("BeeperPicking");
 }
 
-void run() {
+void run (void) {
     move();
     pickBeeper();
     move();
