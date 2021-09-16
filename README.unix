@@ -1,0 +1,26 @@
+2021-09-16:
+
+================================
+Karel the Robot learns C
+CLion-project for unix platforms
+================================
+
+Prerequisites:
+
+- SDL development libraries: SDL, SDL_image, SDL_ttf
+
+For dpkg-based systems (Ubuntu, Debian, etc.):
+apt install libsdl-dev libsdl-image1.2-dev libsdl-ttf2.0-dev
+
+
+- CLion
+
+Download link: https://www.jetbrains.com/clion/download/#section=linux
+Install and activate with free licence.
+Then, apply for a student's licence at
+https://www.jetbrains.com/shop/eform/students
+
+
+
+Now open the directory containing this README as a CLion project.
+
